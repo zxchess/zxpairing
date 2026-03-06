@@ -24,9 +24,9 @@
 | 页面 | 说明 |
 |------|------|
 | ![Dashboard](./Screenshot/01-dashboard.png) | 赛事列表 - 创建和管理比赛 |
-| ![Players](./Screenshot/02-players.png) | 选手管理 - 添加和查看选手 |
-| ![Pairings](./Screenshot/03-pairings.png) | 对阵表 - 生成和显示对阵 |
-| ![Standings](./Screenshot/04-standings.png) | 排名榜 - 实时积分排名 |
+| ![Players](./Screenshot/02-players.png) | 选手管理 - 添加选手、查看对阵表 |
+| ![Pairings](./Screenshot/03-pairings.png) | 排名榜 - 实时积分排名 |
+| ![Standings](./Screenshot/04-standings.png) | 设置 - 语言切换 |
 
 ## 系统架构
 

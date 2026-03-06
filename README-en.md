@@ -19,6 +19,15 @@ ZXPairing is a professional chess tournament pairing system that supports both S
 - **RESTful API**: Frontend-backend separation design, easy to extend and integrate
 - **Internationalization**: Chinese/English bilingual interface
 
+## Screenshots
+
+| Page | Description |
+|------|-------------|
+| ![Dashboard](./Screenshot/01-dashboard.png) | Tournament List - Create and manage tournaments |
+| ![Players](./Screenshot/02-players.png) | Player Management - Add and view players |
+| ![Pairings](./Screenshot/03-pairings.png) | Pairings Table - Generate and display pairings |
+| ![Standings](./Screenshot/04-standings.png) | Standings - Real-time score rankings |
+
 ## Architecture
 
 ```

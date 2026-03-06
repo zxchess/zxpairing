@@ -19,6 +19,15 @@
 - **RESTful API**: 前后端分离设计，易于扩展和集成
 - **国际化支持**: 中文/英文双语界面
 
+## 界面预览
+
+| 页面 | 说明 |
+|------|------|
+| ![Dashboard](./Screenshot/01-dashboard.png) | 赛事列表 - 创建和管理比赛 |
+| ![Players](./Screenshot/02-players.png) | 选手管理 - 添加和查看选手 |
+| ![Pairings](./Screenshot/03-pairings.png) | 对阵表 - 生成和显示对阵 |
+| ![Standings](./Screenshot/04-standings.png) | 排名榜 - 实时积分排名 |
+
 ## 系统架构
 
 ```

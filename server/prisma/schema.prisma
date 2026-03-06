@@ -1,0 +1,93 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+
+model Event {
+  id        Int      @id @default(autoincrement())
+  name      String
+  startDate DateTime @default(now())
+  endDate   DateTime?
+  location  String?
+  status    String   @default("ONGOING") // ONGOING, FINISHED
+  
+  tournaments Tournament[]
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  deletedAt DateTime?
+}
+
+model Tournament {
+  id        Int      @id @default(autoincrement())
+  eventId   Int?
+  event     Event?   @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  
+  name      String
+  system    String   // 'swiss' | 'round_robin'
+  status    String   // 'PENDING', 'ONGOING', 'COMPLETED'
+  note      String?  // Tournament notes/description
+  currentRound Int     @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  deletedAt DateTime? // Soft delete support
+  
+  // JSON config for extra settings (e.g., tie-breaks, pairing rules)
+  config    String?
+  
+  players   Player[]
+  rounds    Round[]
+}
+
+model Player {
+  id             String  @id @default(uuid())
+  name           String
+  rating         Int     @default(0)
+  tournamentId   Int
+  tournament     Tournament @relation(fields: [tournamentId], references: [id], onDelete: Cascade)
+  
+  // Cached performance data
+  score          Float   @default(0.0)
+  rank           Int     @default(0)
+
+  // Specific to Swiss/RR logic
+  pairingId      Int?    // e.g. Pairing Number
+
+  whiteMatches   Match[] @relation("WhitePlayer")
+  blackMatches   Match[] @relation("BlackPlayer")
+}
+
+model Round {
+  id           Int        @id @default(autoincrement())
+  roundNumber  Int
+  tournamentId Int
+  tournament   Tournament @relation(fields: [tournamentId], references: [id], onDelete: Cascade)
+  
+  matches      Match[]
+  
+  // Status
+  isCompleted  Boolean    @default(false)
+  createdAt    DateTime   @default(now())
+}
+
+model Match {
+  id           Int      @id @default(autoincrement())
+  roundId      Int
+  round        Round    @relation(fields: [roundId], references: [id], onDelete: Cascade)
+  
+  whiteId      String
+  whitePlayer  Player   @relation("WhitePlayer", fields: [whiteId], references: [id])
+  
+  blackId      String?  // Nullable for BYE
+  blackPlayer  Player?  @relation("BlackPlayer", fields: [blackId], references: [id])
+  
+  // Result: '1-0', '0-1', '1/2-1/2', '*'
+  result       String?
+  
+  // Optional: keep snapshots of dynamic data here if needed (e.g. ratings at the time of match)
+}

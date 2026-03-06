@@ -1,0 +1,882 @@
+[
+  {
+    "id": "p1",
+    "name": "GrandMaster_1",
+    "rating": 2790,
+    "score": 4.5,
+    "history": [
+      {
+        "opponent": "p11",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p16",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p3",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p18",
+        "color": "B",
+        "result": 0.5
+      },
+      {
+        "opponent": "p4",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p8",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p15",
+        "color": "W",
+        "result": 0.0
+      }
+    ],
+    "rank": 1
+  },
+  {
+    "id": "p2",
+    "name": "GrandMaster_2",
+    "rating": 2780,
+    "score": 3.0,
+    "history": [
+      {
+        "opponent": "p12",
+        "color": "B",
+        "result": 0.5
+      },
+      {
+        "opponent": "p14",
+        "color": "W",
+        "result": 0.5
+      },
+      {
+        "opponent": "p13",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p4",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p10",
+        "color": "W",
+        "result": 0.5
+      },
+      {
+        "opponent": "p5",
+        "color": "W",
+        "result": 0.5
+      },
+      {
+        "opponent": "p8",
+        "color": "B",
+        "result": 0.0
+      }
+    ],
+    "rank": 2
+  },
+  {
+    "id": "p3",
+    "name": "GrandMaster_3",
+    "rating": 2770,
+    "score": 5.5,
+    "history": [
+      {
+        "opponent": "p13",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p17",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p1",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p11",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p12",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p15",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p4",
+        "color": "W",
+        "result": 0.5
+      }
+    ],
+    "rank": 3
+  },
+  {
+    "id": "p4",
+    "name": "GrandMaster_4",
+    "rating": 2760,
+    "score": 5.5,
+    "history": [
+      {
+        "opponent": "p14",
+        "color": "B",
+        "result": 0.5
+      },
+      {
+        "opponent": "p12",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p5",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p2",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p1",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p18",
+        "color": "W",
+        "result": 0.5
+      },
+      {
+        "opponent": "p3",
+        "color": "B",
+        "result": 0.5
+      }
+    ],
+    "rank": 4
+  },
+  {
+    "id": "p5",
+    "name": "GrandMaster_5",
+    "rating": 2750,
+    "score": 4.0,
+    "history": [
+      {
+        "opponent": "p15",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p19",
+        "color": "B",
+        "result": 0.5
+      },
+      {
+        "opponent": "p4",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p7",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p14",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p2",
+        "color": "B",
+        "result": 0.5
+      },
+      {
+        "opponent": "p9",
+        "color": "W",
+        "result": 1.0
+      }
+    ],
+    "rank": 5
+  },
+  {
+    "id": "p6",
+    "name": "GrandMaster_6",
+    "rating": 2740,
+    "score": 4.0,
+    "history": [
+      {
+        "opponent": "p16",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p11",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p9",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p20",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p19",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p14",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p17",
+        "color": "B",
+        "result": 1.0
+      }
+    ],
+    "rank": 6
+  },
+  {
+    "id": "p7",
+    "name": "GrandMaster_7",
+    "rating": 2730,
+    "score": 4.5,
+    "history": [
+      {
+        "opponent": "p17",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p13",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p20",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p5",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p11",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p10",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p18",
+        "color": "B",
+        "result": 0.5
+      }
+    ],
+    "rank": 7
+  },
+  {
+    "id": "p8",
+    "name": "GrandMaster_8",
+    "rating": 2720,
+    "score": 4.0,
+    "history": [
+      {
+        "opponent": "p18",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p20",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p14",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p15",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p17",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p1",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p2",
+        "color": "W",
+        "result": 1.0
+      }
+    ],
+    "rank": 8
+  },
+  {
+    "id": "p9",
+    "name": "GrandMaster_9",
+    "rating": 2710,
+    "score": 3.0,
+    "history": [
+      {
+        "opponent": "p19",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p15",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p6",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p14",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p13",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p12",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p5",
+        "color": "B",
+        "result": 0.0
+      }
+    ],
+    "rank": 9
+  },
+  {
+    "id": "p10",
+    "name": "GrandMaster_10",
+    "rating": 2700,
+    "score": 3.0,
+    "history": [
+      {
+        "opponent": "p20",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p18",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p15",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p16",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p2",
+        "color": "B",
+        "result": 0.5
+      },
+      {
+        "opponent": "p7",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p12",
+        "color": "B",
+        "result": 0.5
+      }
+    ],
+    "rank": 10
+  },
+  {
+    "id": "p11",
+    "name": "GrandMaster_11",
+    "rating": 2690,
+    "score": 2.5,
+    "history": [
+      {
+        "opponent": "p1",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p6",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p16",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p3",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p7",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p17",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p20",
+        "color": "B",
+        "result": 0.5
+      }
+    ],
+    "rank": 11
+  },
+  {
+    "id": "p12",
+    "name": "GrandMaster_12",
+    "rating": 2680,
+    "score": 3.0,
+    "history": [
+      {
+        "opponent": "p2",
+        "color": "W",
+        "result": 0.5
+      },
+      {
+        "opponent": "p4",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p17",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p19",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p3",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p9",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p10",
+        "color": "W",
+        "result": 0.5
+      }
+    ],
+    "rank": 12
+  },
+  {
+    "id": "p13",
+    "name": "GrandMaster_13",
+    "rating": 2670,
+    "score": 1.0,
+    "history": [
+      {
+        "opponent": "p3",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p7",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p2",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p17",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p9",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p20",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p16",
+        "color": "B",
+        "result": 0.0
+      }
+    ],
+    "rank": 13
+  },
+  {
+    "id": "p14",
+    "name": "GrandMaster_14",
+    "rating": 2660,
+    "score": 2.5,
+    "history": [
+      {
+        "opponent": "p4",
+        "color": "W",
+        "result": 0.5
+      },
+      {
+        "opponent": "p2",
+        "color": "B",
+        "result": 0.5
+      },
+      {
+        "opponent": "p8",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p9",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p5",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p6",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p19",
+        "color": "W",
+        "result": 0.5
+      }
+    ],
+    "rank": 14
+  },
+  {
+    "id": "p15",
+    "name": "GrandMaster_15",
+    "rating": 2650,
+    "score": 4.5,
+    "history": [
+      {
+        "opponent": "p5",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p9",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p10",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p8",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p18",
+        "color": "W",
+        "result": 0.5
+      },
+      {
+        "opponent": "p3",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p1",
+        "color": "B",
+        "result": 1.0
+      }
+    ],
+    "rank": 15
+  },
+  {
+    "id": "p16",
+    "name": "GrandMaster_16",
+    "rating": 2640,
+    "score": 2.0,
+    "history": [
+      {
+        "opponent": "p6",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p1",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p11",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p10",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p20",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p19",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p13",
+        "color": "W",
+        "result": 1.0
+      }
+    ],
+    "rank": 16
+  },
+  {
+    "id": "p17",
+    "name": "GrandMaster_17",
+    "rating": 2630,
+    "score": 3.0,
+    "history": [
+      {
+        "opponent": "p7",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p3",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p12",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p13",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p8",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p11",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p6",
+        "color": "W",
+        "result": 0.0
+      }
+    ],
+    "rank": 17
+  },
+  {
+    "id": "p18",
+    "name": "GrandMaster_18",
+    "rating": 2620,
+    "score": 5.0,
+    "history": [
+      {
+        "opponent": "p8",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p10",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p19",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p1",
+        "color": "W",
+        "result": 0.5
+      },
+      {
+        "opponent": "p15",
+        "color": "B",
+        "result": 0.5
+      },
+      {
+        "opponent": "p4",
+        "color": "B",
+        "result": 0.5
+      },
+      {
+        "opponent": "p7",
+        "color": "W",
+        "result": 0.5
+      }
+    ],
+    "rank": 18
+  },
+  {
+    "id": "p19",
+    "name": "GrandMaster_19",
+    "rating": 2610,
+    "score": 3.0,
+    "history": [
+      {
+        "opponent": "p9",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p5",
+        "color": "W",
+        "result": 0.5
+      },
+      {
+        "opponent": "p18",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p12",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p6",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p16",
+        "color": "W",
+        "result": 1.0
+      },
+      {
+        "opponent": "p14",
+        "color": "B",
+        "result": 0.5
+      }
+    ],
+    "rank": 19
+  },
+  {
+    "id": "p20",
+    "name": "GrandMaster_20",
+    "rating": 2600,
+    "score": 2.5,
+    "history": [
+      {
+        "opponent": "p10",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p8",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p7",
+        "color": "B",
+        "result": 0.0
+      },
+      {
+        "opponent": "p6",
+        "color": "W",
+        "result": 0.0
+      },
+      {
+        "opponent": "p16",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p13",
+        "color": "B",
+        "result": 1.0
+      },
+      {
+        "opponent": "p11",
+        "color": "W",
+        "result": 0.5
+      }
+    ],
+    "rank": 20
+  }
+]

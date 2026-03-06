@@ -45,3 +45,6 @@ dist/
 ## Misc
 *.tgz
 .cache/
+
+# Claude Code
+.agent/

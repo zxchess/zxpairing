@@ -61,7 +61,7 @@ ZXPairing is a professional chess tournament pairing system that supports both S
 ### 1. Clone the Project
 
 ```bash
-git clone https://github.com/your-repo/zxpairing.git
+git clone https://github.com/zxchess/zxpairing.git
 cd zxpairing
 ```
 

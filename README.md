@@ -1,5 +1,7 @@
 # ZXPairing (Zhixi Pairing System)
 
+[中文版](./README.zh-CN.md)
+
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12+-blue?style=flat-square&logo=python" alt="Python">
   <img src="https://img.shields.io/badge/Node.js-20+-green?style=flat-square&logo=node.js" alt="Node.js">
